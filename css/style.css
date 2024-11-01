@@ -1,0 +1,229 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+                        /* START NAVBAR */
+.navbar {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 3;
+   width: 100%;
+   padding: 15px 30px;
+   box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+.navbar .nav-item .nav-link{
+   color: rgb(5, 5, 5);
+   transition: all 0.5s ease;
+}
+.navbar .nav-item .nav-link:hover{
+   background-color: rgba(255, 0, 0, 0.507);
+   border-radius: 20px;
+}
+            /* *************END NAVBAR**************  */
+
+               /* *************START HEADER************ */
+header{
+   margin-top: 72px;
+   background-color: rgb(240, 240, 242);
+}
+header .container .row{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header .container .row img{
+   width: 100%;
+}
+header .container .row h1{
+   font-size: 80px;
+   line-height: 1.2;
+   font-weight: 700;
+   color: rgb(11, 28, 57);
+}
+header .container .row p{
+   font-size: 17px;
+   line-height: 1.6;
+   font-weight: 400;
+   color: rgb(33, 32, 37);
+   padding: 30px 0;
+}
+header .container .row a{
+   padding: 15px 29px;
+   background-color: rgb(74, 74, 75);
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+   font-size: 17px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   text-decoration: none;
+}
+header .container .row a {
+   background: linear-gradient(to left , #4a4a4b , #ff2020);
+   background-size: 0%;
+   background-color: #ff2020;
+   border: none;
+   transition:all 0.5s ease;
+}
+
+header .container .row a:hover {
+   background-size: 100%;
+}
+/* ***************END HEADER*************** */
+/* *****************START PRODUCTS************** */
+.products h2{
+   margin: 50px 0 30px 0;
+   font-weight: 900;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 40px;
+   
+}
+.products .container .row{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.products .container .row img{
+   width: 100%;
+   overflow: hidden;
+   transition: .3s ease;
+   margin-bottom: 20px;
+}
+.products .container .row img:hover{
+scale: 1.05;
+}
+.products .container .row h3{
+   font-size: 20px;
+   width: 100%;
+   margin: 5px 20%;
+}
+.products .container .row p{
+   color: #ff2020;
+   text-align: center;
+}
+
+.products{
+   margin-bottom: 20px;
+}
+/* <!-- *****************END PRODUCTS************** --> */
+/* <!-- ****************START GALLERY***************** --> */
+.gallery .row{
+   display: flex;
+   justify-content: space-between;
+}
+
+.gallery .row img{
+width: 100%;
+transition: .3s ease ;
+overflow: hidden;
+}
+.gallery .row img:hover{
+  transform: scale(1.05);
+  overflow: hidden;
+}
+
+/* <!-- ****************END GALLERY***************** --> */
+/* <!-- ****************START popular***************** --> */
+
+.popular h2{
+   text-align: center;
+   margin-top: 50px;
+   font-weight: bolder;
+}
+.popular p{
+   text-align: center;
+}
+
+.popular .card {
+   position: relative;
+   border: none;
+ }
+ /* .popular .card .overlay2{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   background: #ff2020;
+   color: #f1f1f1;
+   width: 100%;
+   height: 5px;
+   color: white;
+   opacity: 1;
+ } */
+ 
+ .overlay {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   background: #ff2020;
+   color: #f1f1f1;
+   width: 100%;
+   transition: .5s ease;
+   opacity:0;
+   color: white;
+   text-align: center;
+ }
+ 
+ .card:hover .overlay {
+   opacity: 1;
+ }
+
+ .overlay h3{
+   font-size: 15px;
+   padding-top: 5px;
+ }
+ .overlay p{
+   font-size: 10px;
+ }
+
+ .popular{
+   text-align: center;
+ }
+
+       /* <!-- ****************END popular***************** --> */
+
+      /* <!-- ****************START choice***************** --> */
+
+ .choice h3{
+   margin-bottom: 20px ;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 900;
+ }
+ .choice button{
+   background-color: #ff2020;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 10px;
+   margin-top: 10px;
+   transition: all .5s ease;
+ }
+ .choice button a{
+   color: white;
+   text-decoration: none;
+ }
+ .choice button:hover{
+   background-color: #4a4a4b;
+ }
+
+    /* <!-- ****************END choice***************** --> */
+   /* <!-- ****************START foot***************** --> */
+
+ .foot {
+   padding: 50px;
+   line-height: 35px;
+   background-color: rgb(240, 240, 242);
+ }
+   /* <!-- ****************END foot***************** --> */
+    /* <!-- ****************START  footer***************** --> */
+
+ footer{
+   background-color: #4a4a4b;
+   padding: 20px;
+   color: white;
+ }
+   /* <!-- ****************END footer***************** --> */
