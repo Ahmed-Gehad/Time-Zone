@@ -65,7 +65,7 @@ header .container .row a{
    text-decoration: none;
 }
 header .container .row a {
-   background: linear-gradient(to left , #4a4a4b), (to left , black);
+   background: linear-gradient(to left , #4a4a4b , #ff2020))
    background-size: 0%;
    background-color: #ff2020;
    border: none;
